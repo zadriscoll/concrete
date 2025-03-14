@@ -79,7 +79,7 @@ export default function Home() {
                 </h2>
                 <p className="text-gray-500 dark:text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   With over 20 years of expereince in the construction industry - we are the guys for the job. We specialize in 
-                  foundations & slabs, driveway and patio installations, flatwork, concrete repair, walls, and paver work.
+                  foundations & slabs, driveway & patio installations, flatwork, concrete repair, walls, and paver work.
                 </p>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
                   <Link href="#quote">
