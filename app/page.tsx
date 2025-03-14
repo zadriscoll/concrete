@@ -259,16 +259,16 @@ export default function Home() {
           </p>
           <div className="flex gap-4">
             <Link
-              href="tel:+17705551234"
+              href="tel:+14042721437"
               className="text-sm text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
             >
-              +1 770 555 1234
+              +1 404 272 1437
             </Link>
             <Link
-              href="mailto:info@concretepros.com"
+              href="mailto:zack@justconcretepros.com"
               className="text-sm text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
             >
-              info@concretepros.com
+              zack@justconcretepros.com
             </Link>
           </div>
         </div>
