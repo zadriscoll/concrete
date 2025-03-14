@@ -11,7 +11,14 @@ export default function Home() {
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <Link href="/" className="flex items-center space-x-2">
-              <span className="text-xl font-bold">Concrete Pros</span>
+              <Image 
+                src="/images/logo.png"  // Update with your actual logo file path
+                alt="Just Concrete Pros Logo"
+                width={50} // Adjust the width as needed
+                height={50} // Adjust the height as needed
+                className="h-10 w-auto"
+              />
+              <span className="text-xl font-bold">Just Concrete Pros</span>
             </Link>
           </div>
           <nav className="hidden md:flex gap-6">
@@ -31,7 +38,7 @@ export default function Home() {
           <div className="flex items-center gap-4">
             <Link href="tel:+14042721437" className="hidden md:flex items-center gap-2">
               <Phone className="h-4 w-4" />
-              <span>+1 770 555 1234</span>
+              <span>+1 404 272 1437</span>
             </Link>
             <Button className="md:hidden" variant="outline" size="icon">
               <span className="sr-only">Toggle menu</span>
@@ -61,7 +68,7 @@ export default function Home() {
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                  Concrete Driveways, Patios & More!
+                  Foundations & Slabs, Flatwork, Driveways, Patios & More!
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                   Just Concrete Pros
@@ -75,12 +82,11 @@ export default function Home() {
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12">
               <div className="space-y-4">
                 <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
-                  Top Concrete Driveway & Masonry Contractor In North Atlanta
+                  Concrete Contractor In North Atlanta
                 </h2>
                 <p className="text-gray-500 dark:text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  We specialize in residential driveway and patio installations, concrete repair, slab construction,
-                  sidewalk and curb installations, foundation work, block retaining walls, stamped concrete, paver work,
-                  fire pit construction, monument installations, and gazebo construction.
+                  With over 20 years of expereince in the construction industry - we are the guys for the job. We specialize in 
+                  foundations & slabs, driveway and patio installations, flatwork, concrete repair, walls, and paver work.
                 </p>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
                   <Link href="#quote">
@@ -109,7 +115,7 @@ export default function Home() {
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Our Services</h2>
                 <p className="max-w-[900px] text-gray-500 dark:text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  With 20 years of industry experience, we deliver quality concrete solutions for all your needs.
+                  Coming from custom home building experience, we deliver quality concrete solutions for all your needs.
                 </p>
               </div>
             </div>
@@ -137,9 +143,9 @@ export default function Home() {
                   </svg>
                 </div>
                 <div className="space-y-2">
-                  <h3 className="text-xl font-bold">Driveways & Patios</h3>
+                  <h3 className="text-xl font-bold">Foundations & Slabs</h3>
                   <p className="text-gray-500 dark:text-gray-400">
-                    Custom concrete driveways and patios built to last with premium materials and expert craftsmanship.
+                    Custom concrete solutions built to last with premium materials and expert craftsmanship.
                   </p>
                 </div>
               </div>
