@@ -93,7 +93,7 @@ export default function Home() {
               </div>
               <div className="aspect-video overflow-hidden rounded-xl">
                 <Image
-                  src="/placeholder.svg?height=600&width=800"
+                  src="/images/logo.png?height=600&width=800"
                   alt="Concrete driveway installation"
                   width={800}
                   height={600}
