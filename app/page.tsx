@@ -279,53 +279,6 @@ export default function Home() {
               </div>
               <div className="w-full max-w-sm space-y-2">
                 <QuoteForm />
-                  <div className="grid gap-2">
-                    <label htmlFor="name" className="sr-only">
-                      Name
-                    </label>
-                    <input
-                      id="name"
-                      placeholder="Name"
-                      className="w-full rounded-md border border-gray-200 bg-white px-4 py-2 text-sm text-gray-900 placeholder:text-gray-400 focus:border-gray-900 focus:outline-none focus:ring-1 focus:ring-gray-900 disabled:cursor-not-allowed disabled:opacity-50"
-                    />
-                  </div>
-                  <div className="grid gap-2">
-                    <label htmlFor="email" className="sr-only">
-                      Email
-                    </label>
-                    <input
-                      id="email"
-                      placeholder="Email"
-                      type="email"
-                      className="w-full rounded-md border border-gray-200 bg-white px-4 py-2 text-sm text-gray-900 placeholder:text-gray-400 focus:border-gray-900 focus:outline-none focus:ring-1 focus:ring-gray-900 disabled:cursor-not-allowed disabled:opacity-50"
-                    />
-                  </div>
-                  <div className="grid gap-2">
-                    <label htmlFor="phone" className="sr-only">
-                      Phone
-                    </label>
-                    <input
-                      id="phone"
-                      placeholder="Phone"
-                      type="tel"
-                      className="w-full rounded-md border border-gray-200 bg-white px-4 py-2 text-sm text-gray-900 placeholder:text-gray-400 focus:border-gray-900 focus:outline-none focus:ring-1 focus:ring-gray-900 disabled:cursor-not-allowed disabled:opacity-50"
-                    />
-                  </div>
-                  <div className="grid gap-2">
-                    <label htmlFor="message" className="sr-only">
-                      Project Details
-                    </label>
-                    <textarea
-                      id="message"
-                      placeholder="Project Details"
-                      className="w-full rounded-md border border-gray-200 bg-white px-4 py-2 text-sm text-gray-900 placeholder:text-gray-400 focus:border-gray-900 focus:outline-none focus:ring-1 focus:ring-gray-900 disabled:cursor-not-allowed disabled:opacity-50"
-                      rows={4}
-                    ></textarea>
-                  </div>
-                  <Button type="submit" className="w-full bg-background text-primary hover:bg-background/90">
-                    Submit
-                  </Button>
-                </form>
               </div>
             </div>
           </div>
@@ -355,4 +308,3 @@ export default function Home() {
     </div>
   )
 }
-
