@@ -277,7 +277,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="w-full max-w-sm space-y-2">
-                <form className="grid gap-4">
+                <form action="https://formspree.io/f/maneyrde" method="POST" className="grid gap-4">
                   <div className="grid gap-2">
                     <label htmlFor="name" className="sr-only">
                       Name
