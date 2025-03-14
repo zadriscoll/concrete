@@ -4,6 +4,7 @@ import { Phone } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import ProjectGallery from "@/components/project-gallery"
 import TestimonialCarousel from "@/components/testimonial-carousel"
+import QuoteForm from "@/components/quote-form"
 
 export default function Home() {
   return (
@@ -36,9 +37,9 @@ export default function Home() {
             </Link>
           </nav>
           <div className="flex items-center gap-4">
-            <Link href="tel:+17705551234" className="hidden md:flex items-center gap-2">
+            <Link href="tel:+14042721437" className="hidden md:flex items-center gap-2">
               <Phone className="h-4 w-4" />
-              <span>+1 404 272 1437</span>
+              <span>+1 770 555 1234</span>
             </Link>
             <Button className="md:hidden" variant="outline" size="icon">
               <span className="sr-only">Toggle menu</span>
@@ -68,7 +69,7 @@ export default function Home() {
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                  Foundations, Flatwork & More!
+                  Concrete Driveways, Patios & More!
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                   Just Concrete Pros
@@ -82,11 +83,12 @@ export default function Home() {
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12">
               <div className="space-y-4">
                 <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
-                  Top Concrete Contractor In North Atlanta
+                  Top Concrete Driveway & Masonry Contractor In North Atlanta
                 </h2>
                 <p className="text-gray-500 dark:text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  We specialize in residential & commercial concrete jobs. We handle anything from commerical projects to smaller projects like:
-                  driveway and patio installations, concrete repair, slab construction, sidewalk and curb installations, foundation work, block retaining walls, stamped concrete & paver work.
+                  We specialize in residential driveway and patio installations, concrete repair, slab construction,
+                  sidewalk and curb installations, foundation work, block retaining walls, stamped concrete, paver work,
+                  fire pit construction, monument installations, and gazebo construction.
                 </p>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
                   <Link href="#quote">
@@ -115,7 +117,7 @@ export default function Home() {
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Our Services</h2>
                 <p className="max-w-[900px] text-gray-500 dark:text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  With over 20 years of industry experience, we deliver quality concrete solutions for all your needs.
+                  With 20 years of industry experience, we deliver quality concrete solutions for all your needs.
                 </p>
               </div>
             </div>
@@ -276,7 +278,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="w-full max-w-sm space-y-2">
-                <form action="https://formspree.io/f/maneyrde" method="POST" className="grid gap-4">
+                <QuoteForm />
                   <div className="grid gap-2">
                     <label htmlFor="name" className="sr-only">
                       Name
