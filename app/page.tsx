@@ -92,7 +92,7 @@ export default function Home() {
               </div>
               <div className="aspect-video overflow-hidden rounded-xl">
                 <Image
-                  src="/images/foundation.webp?height=600&width=800"
+                  src="/images/flatwork.jpg?height=600&width=800"
                   alt="Concrete driveway installation"
                   width={800}
                   height={600}
@@ -219,7 +219,7 @@ export default function Home() {
               </div>
               <div className="aspect-square overflow-hidden rounded-xl">
                 <Image
-                  src="/placeholder.svg?height=600&width=600"
+                  src="/images/foundation2.jpg.webp?height=600&width=600"
                   alt="Concrete professionals at work"
                   width={600}
                   height={600}
