@@ -29,9 +29,9 @@ export default function Home() {
             </Link>
           </nav>
           <div className="flex items-center gap-4">
-            <Link href="tel:+14042721437" className="hidden md:flex items-center gap-2">
+            <Link href="tel:+17708801268" className="hidden md:flex items-center gap-2">
               <Phone className="h-4 w-4" />
-              <span>+1 404 272 1437</span>
+              <span>+1 770 880 1268</span>
             </Link>
             <Button className="md:hidden" variant="outline" size="icon">
               <span className="sr-only">Toggle menu</span>
@@ -252,16 +252,16 @@ export default function Home() {
           </p>
           <div className="flex gap-4">
             <Link
-              href="tel:+14042721437"
+              href="tel:+17708801268"
               className="text-sm text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
             >
-              +1 404 272 1437
+              +1 770 880 1268
             </Link>
             <Link
-              href="mailto:zack@justconcretepros.com"
+              href="mailto:aaron@justconcretepros.com"
               className="text-sm text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
             >
-              zack@justconcretepros.com
+              aaron@justconcretepros.com
             </Link>
           </div>
         </div>
