@@ -11,13 +11,6 @@ export default function Home() {
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <Link href="/" className="flex items-center space-x-2">
-              <Image 
-                src="/images/logo.png"  // Update with your actual logo file path
-                alt="Just Concrete Pros Logo"
-                width={50} // Adjust the width as needed
-                height={50} // Adjust the height as needed
-                className="h-10 w-auto"
-              />
               <span className="text-xl font-bold">Just Concrete Pros</span>
             </Link>
           </div>
@@ -68,7 +61,7 @@ export default function Home() {
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                  Foundations & Slabs, Flatwork, Driveways, Patios & More!
+                  Foundations & Slabs, Flatwork, Driveways & More!
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                   Just Concrete Pros
