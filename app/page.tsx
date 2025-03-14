@@ -2,8 +2,6 @@ import Image from "next/image"
 import Link from "next/link"
 import { Phone } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import ProjectGallery from "@/components/project-gallery"
-import TestimonialCarousel from "@/components/testimonial-carousel"
 import QuoteForm from "@/components/quote-form"
 
 export default function Home() {
@@ -25,12 +23,6 @@ export default function Home() {
             </Link>
             <Link href="#about" className="text-sm font-medium transition-colors hover:text-primary">
               About Us
-            </Link>
-            <Link href="#gallery" className="text-sm font-medium transition-colors hover:text-primary">
-              Photo Gallery
-            </Link>
-            <Link href="#reviews" className="text-sm font-medium transition-colors hover:text-primary">
-              Reviews
             </Link>
             <Link href="#quote" className="text-sm font-medium transition-colors hover:text-primary">
               Get Free Quote
@@ -210,21 +202,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section id="reviews" className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
-          <div className="container px-4 md:px-6">
-            <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Customer Reviews</h2>
-                <p className="max-w-[900px] text-gray-500 dark:text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  See what our satisfied customers in North Atlanta have to say about our work.
-                </p>
-              </div>
-            </div>
-            <div className="mx-auto py-12">
-              <TestimonialCarousel />
-            </div>
-          </div>
-        </section>
         <section id="about" className="w-full py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12">
@@ -250,21 +227,6 @@ export default function Home() {
                   className="object-cover w-full h-full"
                 />
               </div>
-            </div>
-          </div>
-        </section>
-        <section id="gallery" className="w-full py-12 md:py-24 lg:py-32">
-          <div className="container px-4 md:px-6">
-            <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Photo Gallery</h2>
-                <p className="max-w-[900px] text-gray-500 dark:text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  View our recent projects and see the quality of our work.
-                </p>
-              </div>
-            </div>
-            <div className="mx-auto max-w-5xl py-12">
-              <ProjectGallery />
             </div>
           </div>
         </section>
